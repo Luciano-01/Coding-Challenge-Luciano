@@ -1,0 +1,112 @@
+
+/* BACKGROUND */
+
+.background{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 100vh; 
+}
+
+
+/* CONTAINER */
+
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 62%;
+    border-radius: 20px;
+    padding: 5%;
+    position: fixed;
+    top: 3%;
+    left: 19%;
+}
+
+.container:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* HEADER */
+
+header{
+    position: relative;
+    left: 50%;
+}
+
+/* LOGO */
+
+.logo-g{
+    width: 25%;
+    transform: translate(-50%);
+}
+
+/* SUBTITLES */
+
+.subtitles{
+    color: lime;
+    transform: translate(-50%);
+    width: 100%; 
+    text-align: center; 
+}
+
+
+/* MAIN */
+
+/* BUTTON */
+
+
+.button{
+    background-color: lime;
+    margin-top: 1%;
+    text-align: center;
+    padding: 1%;
+}
+
+/* MONOPATTINO GINO E STATO CARICA */
+
+.monopattino-gino{
+    color: white;
+    margin-top: 2%;
+}
+
+.gino-c{
+    width: 40vh;
+    height: 3vh;
+    border-radius: 5px;
+    background-color: rgba(244, 192, 96, 0.904);
+}
+
+/* MONOPATTINO */
+
+.monopattino{
+    color: white;
+    margin-top: 3%;
+}
+
+/* MONOPATTINO MIKE E STATO CARICA */
+
+.mike-c{
+    width: 60vh;
+    height: 3vh;
+    border-radius: 5px;
+    background-color: rgb(21, 189, 15)
+}
+
+/* MONOPATTINO FEDE E STATO CARICA */
+
+.fede-c{
+    width: 25vh;
+    height: 3vh;
+    border-radius: 5px;
+    background-color: indianred;
+}
+
+
+/* TUTTA LA PAGINA */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
